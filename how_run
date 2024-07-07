@@ -1,0 +1,10 @@
+1. Running Frontend
+cd /Frontend
+npm run dev
+2. Running Backend
+uvicorn backend.main:app --reload
+3. Running Bot
+poetry shell
+python main.py
+4. Running LT
+start_tunnels.bat
